@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://jurlique.com.au/cdn/shop/articles/7_WAYS_TO_MAKE_EVERY_DAY_EARTH_DAY_9c2990e0-c893-4d66-9e7a-29b89c8dcf60.jpg?v=1742172049&width=1920');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #4e342e;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 800px;
+    min-height: 600px;
+    margin: auto;
+    background: rgba(255, 248, 240, 0.95);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  h1, h2 {
+    color: #3e2723;
+  }
+  
+  button {
+    background-color: #6d4c41;
+    color: white;
+    padding: 14px 28px;
+    margin: 20px auto;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #5d4037;
+  }
+  
+  input[type="number"] {
+    padding: 10px;
+    border: 2px solid #6d4c41;
+    border-radius: 10px;
+    background-color: #fffaf5;
+  }
+
+  .level-select {
+    margin: 20px 0;
+    font-size: 18px;
+    color: #4e342e;
+    text-align: center;
+  }
+  
+  .level-select label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .level-select select {
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 2px solid #6d4c41;
+    background-color: #fffaf5;
+    color: #4e342e;
+    width: 80%;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .bottom-image {
+    margin-top: 30px;
+    max-width: 80%;
+    height: auto;
+    border-radius: 12px;
+  }
+  .choices-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+  }
+
+  select#level {
+    padding: 12px;
+    font-size: 18px;
+    border-radius: 12px;
+    border: 2px solid #5d4037;
+    background-color: #d7ccc8;
+    color: #4e342e;
+    width: 300px;
+    margin: 10px 0;
+    transition: 0.3s ease;
+  }
+  
+  select#level:hover {
+    background-color: #c8b7b1;
+  }
+  
+  
+  .status-bar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #4e342e;
+  }
+
+
+
+  .choice-btn.correct {
+  background-color: #4caf50 !important; /* green */
+  color: white;
+}
+
+  .choice-btn.incorrect {
+  background-color: #f44336 !important; /* red */
+  color: white;
+
+
+
+  
+}
+
+
+
+
+  
+  

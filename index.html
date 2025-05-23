@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Math Quiz</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+
+<body>
+
+  <div id="setup" class="container">
+    <h1>Math Quiz</h1>
+    <p><strong>Choose Level:</strong></p>
+    <select id="level">
+      <option value="0">Level 0 (No Time Limit)</option>
+      <option value="1">Level 1 (20s per question)</option>
+      <option value="2">Level 2 (10s per question)</option>
+    </select>
+    <br><br>
+    <button onclick="startGame()">Start Game</button>
+    <br><br>
+    <img src="images/Untitled design.png" alt="math-logo" class="bottom-image">
+  </div>
+
+  <div id="game" class="container hidden">
+    <div class="status-bar">
+      <span id="score-display">Score: 0</span>
+      <span id="timer-display">Time Left: ∞</span>
+    </div>
+    <h2 id="question">Question appears here</h2>
+    <div id="choices-container" class="choices-container"></div>
+    <img src="images/Untitled design.png" alt="math-logo" class="bottom-image">
+  </div>
+
+  <div id="result" class="container hidden">
+    <h2>Quiz Complete!</h2>
+    <p id="result-text"></p>
+    <button onclick="returnToStart()">Play Again</button>
+  </div>
+
+  <script src="script.js"></script>
+
+
+
+</body>
+</html>
